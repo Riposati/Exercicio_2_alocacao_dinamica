@@ -3,7 +3,6 @@
 #include <string.h>
 
 struct disciplina{
-
     char nomeDisciplina[50];
     int periodo;
     double creditos;
@@ -22,7 +21,7 @@ struct estudante{
 
 }typedef Estudante;
 
-Disciplina *removerTodasDisciplinas(Estudante *ini){
+Estudante *removerTodasDisciplinas(Estudante *ini){
 
     Estudante *auxiliador = ini;
     Disciplina *auxiliadorDisciplinas=NULL;
@@ -49,5 +48,28 @@ Disciplina *removerTodasDisciplinas(Estudante *ini){
         auxiliador = auxiliador->prox;
     }
 
+    return ini;
+}
+
+Estudante *removerTodosAlunos(Estudante *ini){
+
+    Estudante *auxiliador = ini;
+    Estudante *auxiliadorDeTraz = NULL;
+
+    ini = removerTodasDisciplinas(ini);
+
+    while(auxiliador!=NULL){
+
+        auxiliadorDeTraz = ini;
+        ini = auxiliador->prox;
+        auxiliador = ini;
+        free(auxiliadorDeTraz);
+    }
+
+    return ini;
+}
+
+Estudante *removeTudo(Estudante *ini){
+    ini = removerTodosAlunos(ini);
     return ini;
 }

@@ -1,18 +1,21 @@
 # depslib dependency file v1.0
-1445278234 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\main.c
+1445283412 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"headers/funcoes_implementam_estudantes_com_disciplinas.h"
+	"headers/funcoes_remocao_estudantes_disciplinas.h"
+	"headers/funcoes_mostrar_informacoes_estudantes.h"
+	<locale.h>
 
 1445279066 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\implementacoes\implementacoes_funcoes_estudantes_com_disciplinas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1445273444 c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\headers\funcoes_implementam_estudantes_com_disciplinas.h
+1445279086 c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\headers\funcoes_implementam_estudantes_com_disciplinas.h
 
-1445278648 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\implementacoes\implementacoes_funcoes_estudantes_com_disciplinas_remocao.c
+1445281611 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\implementacoes\implementacoes_funcoes_estudantes_com_disciplinas_remocao.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -21,4 +24,8 @@
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1445280873 c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\headers\funcoes_remocao_estudantes_disciplinas.h
+
+1445279092 c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\headers\funcoes_mostrar_informacoes_estudantes.h
 

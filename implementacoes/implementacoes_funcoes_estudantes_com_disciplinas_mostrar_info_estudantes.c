@@ -59,7 +59,7 @@ void mostrarEstudantesEDisciplinas(Estudante *inicioAlunos){
 
                 printf("nome da disciplina = %s\n",auxDisciplinas->nomeDisciplina);
                 printf("periodo da disciplina = %d\n",auxDisciplinas->periodo);
-                printf("creditos da disciplina = %lf\n",auxDisciplinas->creditos);
+                printf("creditos da disciplina = %.2lf\n",auxDisciplinas->creditos);
                 printf("\n");
                 auxDisciplinas = auxDisciplinas->prox;
             }
@@ -84,6 +84,7 @@ void mostrarEstudantesComUmaDisciplina(Estudante *inicioAlunos){
 
         printf("ALUNO : %s\n",aux->nomeEstudante);
         printf("Disciplinas deste aluno:\n");
+
         if(aux->disciplina!=NULL && aux->disciplina->prox==NULL){
 
             printf("\n-----------------------------------------\n");
@@ -100,11 +101,7 @@ void mostrarEstudantesComUmaDisciplina(Estudante *inicioAlunos){
             }
 
             printf("\n-----------------------------------------\n");
-        }else{
-
-            printf("\nAluno tem mais de 1 disciplina cadastrada\n");
         }
-
         aux = aux->prox;
     }
 }
