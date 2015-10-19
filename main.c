@@ -46,14 +46,14 @@ int main()
     do{
         printf("SISTEMA DE ALUNOS E LISTA DE DISCIPLINAS\n");
         printf("1 e enter - Cadastrar estudante\n");
-        printf("2 e enter - Cadastrar disciplina\n");
+        printf("2 e enter - Cadastrar disciplina para um estudante\n");
         printf("3 e enter - Mostrar somente os estudantes\n");
         printf("4 e enter - Mostrar os estudantes com suas respectivas disciplinas\n");
-        printf("5 e enter - Mostrar os estudantes que est˜ao cursando apenas 1 disciplinas\n");
-        printf("6 e enter - Mostrar os estudantes que n˜ao cursam nenhuma disciplinas\n");
+        printf("5 e enter - Mostrar os estudantes que estão cursando apenas 1 disciplinas\n");
+        printf("6 e enter - Mostrar os estudantes que não cursam nenhuma disciplinas\n");
         printf("7 e enter - Mostrar o estudante com a maior soma em creditos das disciplinas\n");
         printf("8 e enter - Desalocar todas as disciplinas\n");
-        printf("9 e enter - Desalocar todos os estudantes. (Lembre-se que um estudante s´o pode ser desalocado se ele n˜ao tiver nenhuma disciplina)\n");
+        printf("9 e enter - Desalocar todos os estudantes. (Lembre-se que um estudante só pode ser desalocado se ele n˜ao tiver nenhuma disciplina)\n");
         printf("10 e enter - Desalocar TUDO - estudantes e disciplinas\n");
         printf("11 e enter - Limpar a tela\n");
         printf("12 e enter - Sair\n");
@@ -101,7 +101,6 @@ int main()
 
                 iniEstudante = insereDisciplina(iniEstudante,nomeEstudante,nomeDisciplina
                                                 ,periodo,creditos);
-
                 break;
 
             case 3:
