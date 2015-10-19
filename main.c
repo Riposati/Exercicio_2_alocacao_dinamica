@@ -3,6 +3,23 @@
 #include <string.h>
 #include "headers/funcoes_implementam_estudantes_com_disciplinas.h"
 
+/*
+(a) 1 - Cadastrar estudante. OK
+(b) 2 - Cadastrar disciplina. OK
+(c) 3 - Mostrar somente os estudantes. OK
+(d) 4 - Mostrar os estudantes com suas respectivas disciplinas. OK
+(e) 5 - Mostrar os estudantes que est˜ao cursando apenas 1 disciplinas. OK
+(f) 6 - Mostrar os estudantes que n˜ao cursam nenhuma disciplinas. OK
+(g) 7 - Mostrar o estudante que possui a maior soma em cr´editos das disciplinas que
+cursa. OK
+(h) 8 - Desalocar todas as disciplinas.
+(i) 9 - Desalocar todos os estudantes. (Lembre-se que um estudante s´o pode ser desalocado
+se ele n˜ao tiver nenhuma disciplina).
+(j) 10 - Desalocar TUDO - estudantes e disciplinas.
+(k) 11 - Sair. (Antes de fechar o programa, tudo que foi alocado deve ser desalocado); OK
+
+*/
+
 int main()
 {
     Estudante *iniEstudante = NULL;
