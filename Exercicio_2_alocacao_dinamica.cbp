@@ -31,6 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="headers/funcoes_implementam_estudantes_com_disciplinas.h" />
+		<Unit filename="headers/funcoes_mostrar_informacoes_estudantes.h" />
+		<Unit filename="headers/funcoes_remocao_estudantes_disciplinas.h" />
+		<Unit filename="implementacoes/implementacoes_funcoes_estudantes_com_disciplinas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="implementacoes/implementacoes_funcoes_estudantes_com_disciplinas_mostrar_info_estudantes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="implementacoes/implementacoes_funcoes_estudantes_com_disciplinas_remocao.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

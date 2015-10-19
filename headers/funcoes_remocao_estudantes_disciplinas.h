@@ -1,0 +1,9 @@
+#ifndef FUNCOES_REMOCAO_ESTUDANTES_DISCIPLINAS_H_INCLUDED
+#define FUNCOES_REMOCAO_ESTUDANTES_DISCIPLINAS_H_INCLUDED
+
+typedef Disciplina;
+typedef Estudante;
+
+Disciplina *removerTodasDisciplinas(Estudante *ini);
+
+#endif // FUNCOES_REMOCAO_ESTUDANTES_DISCIPLINAS_H_INCLUDED
