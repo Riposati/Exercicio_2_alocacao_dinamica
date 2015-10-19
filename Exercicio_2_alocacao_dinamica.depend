@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1445227502 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"headers/funcoes_implementam_estudantes_com_disciplinas.h"
+
+1445227627 source:c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\implementacoes\implementacoes_funcoes_estudantes_com_disciplinas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1445227645 c:\users\gurip_000\desktop\exercicio_2_alocacao_dinamica\headers\funcoes_implementam_estudantes_com_disciplinas.h
+
